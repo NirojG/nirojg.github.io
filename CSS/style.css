@@ -1,0 +1,18 @@
+body {
+background-color: aquamarine;
+font-family: arial;
+}
+h1 {
+    color: rgb(157, 0, 255);
+}
+
+p {
+  color: red;
+  font-family: sans-serif;  
+}
+img {
+    width: 350px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: outset;
+}
