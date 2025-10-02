@@ -8,7 +8,7 @@
 /* Body */
 body {
   background-color: #f5faf8; 
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: sans-serif, Arial;
   color: #1c2526;
   line-height: 24px;
 }
@@ -158,4 +158,5 @@ footer {
   }
 
 }
+
 
