@@ -7,7 +7,7 @@
 
 /* Body styling */
 body {
-  background-color: #f3e9ff; 
+  background-color: #f3e9ff; /* Soft purple */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #222;
   line-height: 24px;
@@ -15,7 +15,7 @@ body {
 
 /* Header styling */
 header {
-  background-color: #4b0082; 
+  background-color: #4b0082; /* Deep purple */
   color: white;
   padding: 20px;
   text-align: center;
@@ -45,13 +45,14 @@ nav a {
 }
 
 nav a.active {
-  background-color: #b388ff; 
+  background-color: #b388ff; /* Soft lavender */
 }
 
 /* Main content area */
 main {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 20px;
   max-width: 900px;
   margin: 0 auto;
@@ -60,34 +61,37 @@ main {
 
 /* Contact section */
 .contact {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 20px;
-  background-color: #ede4ff; 
+  background-color: #ede4ff; /* Light purple */
   padding: 20px;
 }
 
 /* Social media section */
 .social {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 20px;
-  background-color: #e8ddff; 
+  background-color: #e8ddff; /* Slightly darker purple */
   padding: 20px;
 }
 
 /* Connect section */
 .connect {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 20px;
-  background-color: #ede4ff; 
+  background-color: #ede4ff; /* Light purple */
   padding: 20px;
 }
 
 /* Flip layout for specific sections */
 .flip {
-  grid-template-columns: 1fr;
+  flex-direction: column-reverse;
 }
 
 /* Text styling for sections */
@@ -110,8 +114,7 @@ main {
 
 /* Social media links */
 .social-links {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
+  display: flex;
   gap: 20px;
   justify-content: center;
 }
@@ -138,25 +141,21 @@ footer {
   }
 
   .contact, .social, .connect {
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
   }
 
   .flip {
-    grid-template-columns: 1fr 1fr;
-    direction: rtl;
-  }
-
-  .flip > * {
-    direction: ltr;
+    flex-direction: row-reverse;
   }
 
   .contact img, .social img, .connect img {
     max-width: 350px;
+    margin: 0;
   }
 
   .social-links {
-    grid-template-columns: repeat(3, 60px);
     gap: 20px;
   }
 
