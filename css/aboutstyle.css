@@ -7,7 +7,7 @@
 
 /* Body styling mainly for the body page and font choose */
 body {
-  background-color: #f0f7f4; /* Soft mint green background */
+  background-color: #f0f7f4; 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #1c2526; /* Dark teal text */
   line-height: 24px;
@@ -15,11 +15,11 @@ body {
 
 /* Header styling for header section of the sematic elements */
 header {
-  background-color: #1a3c34; /* Deep teal */
+  background-color: #1a3c34; 
   color: white;
   padding: 20px;
   text-align: center;
-  border-bottom: 3px solid #2e6b5e; /* Teal accent */
+  border-bottom: 3px solid #2e6b5e; 
 }
 
 /* Header title */
@@ -45,7 +45,7 @@ nav a {
   border-radius: 5px;
 }
 
-/* Teal for active link it will hightlight */
+/* color change for active link it will hightlight */
 nav a.active {
   background-color: #2e6b5e; 
 }
@@ -182,4 +182,5 @@ footer {
     max-width: 350px;
     margin: 0;
   }
+
 }
