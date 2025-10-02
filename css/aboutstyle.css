@@ -1,0 +1,185 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling mainly for the body page and font choose */
+body {
+  background-color: #f0f7f4; /* Soft mint green background */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #1c2526; /* Dark teal text */
+  line-height: 24px;
+}
+
+/* Header styling for header section of the sematic elements */
+header {
+  background-color: #1a3c34; /* Deep teal */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #2e6b5e; /* Teal accent */
+}
+
+/* Header title */
+header h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+/* Navigation links */
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+/* Teal for active link it will hightlight */
+nav a.active {
+  background-color: #2e6b5e; 
+}
+
+/* Main content area */
+main {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Intro section */
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #e6efed; 
+}
+
+/* Interests section */
+.interests {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f0f7f4; 
+}
+
+/* Goals section */
+.goals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #d9e7e3; 
+}
+
+/* Hobbies section */
+.hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #e0ede9; 
+}
+
+/* Career section */
+.career {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ecf4f2; 
+}
+
+/* Reverse layout for specific sections */
+.reverse {
+  flex-direction: column-reverse;
+}
+
+/* Text styling for sections */
+.intro h2, .interests h2, .goals h2, .hobbies h2, .career h2 {
+  font-size: 26px;
+  color: #1a3c34; /* this color is for Matching header */
+  margin-bottom: 16px;
+}
+
+.intro p, .interests p, .goals p, .hobbies p, .career p {
+  max-width: 500px;
+  margin: 0 auto 24px auto;
+}
+
+/* Images in sections */
+.intro img, .interests img, .goals img, .hobbies img, .career img {
+  max-width: 350px;
+  height: auto;
+  border-radius: 8px;
+  border: 3px solid #1a3c34; /* Matching h2 color */
+}
+
+/* Footer styling */
+footer {
+  background-color: #1a3c34; 
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 32px;
+}
+
+/* Responsive design for larger screens */
+@media (min-width: 768px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .intro, .interests, .goals, .hobbies, .career {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .intro p, .interests p, .goals p, .hobbies p, .career p {
+    max-width: 500px;
+  }
+
+  .intro img, .interests img, .goals img, .hobbies img, .career img {
+    max-width: 350px;
+    margin: 0;
+  }
+}
