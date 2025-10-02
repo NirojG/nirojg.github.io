@@ -8,8 +8,8 @@
 /* Body styling mainly for the body page and font choose */
 body {
   background-color: #f0f7f4; 
-  font-family: Calibri, Arial, sans-serif;
-  color: #1c2526; /* Dark teal text */
+  font-family: sans-serif, Calibri, Arial;
+  color: #1c2526; 
   line-height: 24px;
 }
 
@@ -184,5 +184,6 @@ footer {
   }
 
 }
+
 
 
