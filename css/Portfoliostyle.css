@@ -7,15 +7,15 @@
 
 /* Body */
 body {
-  background-color: #f5faf8; /* Lighter mint green */
+  background-color: #f5faf8; 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #1c2526;
   line-height: 24px;
 }
 
-/* Header */
+/* Header section stylings */
 header {
-  background-color: #1a3c34; /* Deep teal */
+  background-color: #1a3c34; 
   color: white;
   padding: 20px;
   text-align: center;
@@ -34,7 +34,7 @@ nav ul {
   flex-direction: column;
   gap: 10px;
   align-items: center;
-  justify-content: center; /* Center navigation links */
+  justify-content: center; /* Centering the navigation links here */
 }
 
 nav a {
@@ -46,7 +46,7 @@ nav a {
 }
 
 nav a.active {
-  background-color: #2e6b5e; /* Teal for active link */
+  background-color: #2e6b5e; /* color change for the active link */
 }
 
 /* Main */
@@ -68,10 +68,10 @@ main {
 
 /* Backgrounds per section */
 .section.work {
-  background-color: #e6efed; /* Light mint */
+  background-color: #e6efed; 
 }
 .section.projects {
-  background-color: #f5faf8; /* Match body */
+  background-color: #f5faf8; 
 }
 
 /* Flip option */
@@ -126,7 +126,7 @@ footer {
   margin-top: 32px;
 }
 
-/* Responsive Ensure centering on desktop */
+/* Media responsive in the styles*/
 @media (min-width: 768px) {
   nav ul {
     flex-direction: row;
@@ -156,4 +156,5 @@ footer {
   table {
     max-width: 600px;
   }
+
 }
