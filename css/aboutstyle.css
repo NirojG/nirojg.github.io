@@ -8,7 +8,7 @@
 /* Body styling mainly for the body page and font choose */
 body {
   background-color: #f0f7f4; 
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: sans-serif, Arial, Helvetica;
   color: #1c2526; /* Dark teal text */
   line-height: 24px;
 }
@@ -184,3 +184,4 @@ footer {
   }
 
 }
+
