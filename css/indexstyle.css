@@ -8,7 +8,7 @@
 /* Body styling */
 body {
   background-color: #f5f9ff; 
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Calibri, Arial, sans-serif;
   color: #222;
   line-height: 24px;
 }
@@ -156,4 +156,5 @@ footer {
     max-width: 350px;
     margin: 0;
   }
+
 }
